@@ -1,25 +1,63 @@
 body {
-  background-color: #0f0f14;
+  background-color: #0d0221;
   color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+  margin: 0;
 }
 
+/* HEADER */
 header {
-  padding: 40px;
-}
-
-.status, .notes, .poem {
-  background: #1a1a22;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 15px;
+  padding: 60px 20px 30px;
 }
 
 h1 {
-  color: #ffb6c1;
+  color: #d0aaff;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
+/* TAGLINE */
+header p {
+  color: #cfcfcf;
+  font-size: 1.1rem;
+}
+
+/* CARDS */
+.status, .notes, .poem {
+  background: #1a0b2e;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* SECTION TITLES */
 h2 {
-  color: #cdb4db;
+  color: #7fffd4;
+  letter-spacing: 2px;
+}
+
+/* TEXT LINES */
+p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* SMALL TEXT */
+small {
+  color: #cfcfcf;
+}
+
+/* ✨ OPTIONAL: decorative line under titles */
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #7fffd4;
+  margin: 10px auto;
+  border-radius: 5px;
 }
