@@ -1,0 +1,25 @@
+body {
+  background-color: #0f0f14;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+}
+
+.status, .notes, .poem {
+  background: #1a1a22;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #ffb6c1;
+}
+
+h2 {
+  color: #cdb4db;
+}
